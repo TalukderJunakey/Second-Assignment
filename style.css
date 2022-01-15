@@ -24,7 +24,7 @@ h3{
     
 }
 .font img{
-    width: 80%;
+    width: 80%; padding-left: 190px;
 
 }
 .link{
@@ -87,4 +87,11 @@ h3{
 }
 .fa-star.filled{
     color:#FFC014 ;
+}
+footer p{
+    height: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+  
 }
