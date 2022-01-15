@@ -1,0 +1,90 @@
+h1{
+color: #3A3A3A;;
+margin-left: 140px;
+margin-top: 10px;
+}
+
+h3{
+    font-size: 25px;   
+}
+
+.flexible{
+    display:flex;
+    margin-bottom: 100px;
+}
+
+.clr{
+    color: orange;
+}
+.font{
+    width: 40%;
+    padding-left: 10%;
+    grid-row-gap: 10px;
+    
+    
+}
+.font img{
+    width: 80%;
+
+}
+.link{
+    border-radius: 16px;
+    text-decoration: none;
+    background-color: #E02C6D;
+   
+    Width :140px;
+    Height :30px;
+    padding:20px 40px;
+    font-weight: 400;
+    
+}
+.fas{
+    color:white;
+    font-size: 16px;
+}
+
+.center{
+    text-align:center;
+    color: salmon;
+}
+ img{
+     width: 40%;
+ }
+
+/* photos */
+.container{
+    background-color: #FFFFFF;
+    Width :870px;
+    padding: 30px;
+    border-radius: 5px;
+    margin-top: 20px;
+   
+}
+.title{
+    text-align: center;
+    padding-left: 375px;
+    color: grey;
+}
+.photos{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 24px;
+    border-radius:2px solid red;
+    padding-left: 220px;
+   
+}
+.photo .photo-banner img{
+    width: 266px;
+    height: 141px;
+}
+.photo-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color:#FFC014 ;
+}
