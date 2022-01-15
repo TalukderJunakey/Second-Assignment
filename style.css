@@ -1,6 +1,6 @@
 
 h1{
-color: #3A3A3A;;
+color: #3A3A3A;
 margin-left: 80px;
 margin-bottom: 100px;
 
@@ -69,10 +69,14 @@ h3{
 .photo{
     margin-bottom: 30px;
 }
+.photo-price{
+    font-size: 20px;
+}
 .title{
     text-align: center;
     padding-left: 375px;
-    color: grey;
+    color: #3A3A3A;
+    font-size: 30px;
 }
 .photos{
     display: grid;
@@ -105,7 +109,8 @@ h3{
 }
 .table-heading{
     text-align: center;
-    color: steelblue;
+    color: #3A3A3A;
+    font-size: 30px;
 
 }
 table {
@@ -136,7 +141,7 @@ td:nth-child(2n+1)
     background-color: slategrey;
 }
 footer{
-    background-color: rebeccapurple;
+    background-color:darkslateblue;
     height: 200px;
     width:100vw;
     color: white;
