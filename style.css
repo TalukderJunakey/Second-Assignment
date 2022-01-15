@@ -1,11 +1,14 @@
 h1{
 color: #3A3A3A;;
-margin-left: 140px;
-margin-top: 10px;
+margin-left: 80px;
+margin-bottom: 100px;
+
 }
 
 h3{
     font-size: 25px;   
+    margin-bottom: 10px;
+
 }
 
 .flexible{
@@ -88,10 +91,33 @@ h3{
 .fa-star.filled{
     color:#FFC014 ;
 }
-footer p{
-    height: 100px;
-    text-align: center;
-    background-color: black;
+footer{
+    background-color: rebeccapurple;
+    height: 200px;
+    width:100vw;
     color: white;
-  
+}
+.footer-content{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+   align-items: center;
+   
+}
+.footer-content h3{
+    font-size: 30px;
+    font-weight: 400;margin-top: 10px;
+    
+}
+.social{
+    list-style: none;
+    display: flex;
+    
+   
+}
+.social li{
+    margin: 10px;
+    align-items: center;
+    padding-right: 15px;
 }
